@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>edu.neumont.utils.Zombie</OriginalElement>
+  <nodes>
+    <node x="0.0" y="406.0">edu.neumont.utils.Walker</node>
+    <node x="187.0" y="0.0">edu.neumont.utils.Zombie</node>
+    <node x="625.0" y="0.0">edu.neumont.utils.ZedGenerator</node>
+    <node x="374.0" y="373.0">edu.neumont.utils.Tank</node>
+    <node x="645.5" y="196.0">edu.neumont.utils.ZedGenerator.ZombieType</node>
+    <node x="378.0" y="0.0">edu.neumont.controllers.Console</node>
+    <node x="379.5" y="196.0">edu.neumont.controllers.Controller</node>
+    <node x="187.0" y="395.0">edu.neumont.utils.Runner</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="edu.neumont.utils.Walker" target="edu.neumont.utils.Zombie" relationship="GENERALIZATION">
+      <point x="0.0" y="-128.5" />
+      <point x="83.5" y="348.0" />
+      <point x="270.5" y="348.0" />
+      <point x="0.0" y="161.5" />
+    </edge>
+    <edge source="edu.neumont.utils.ZedGenerator.ZombieType" target="edu.neumont.utils.ZedGenerator" relationship="INNER_CLASS">
+      <point x="0.0" y="-84.0" />
+      <point x="0.0" y="73.0" />
+    </edge>
+    <edge source="edu.neumont.utils.Tank" target="edu.neumont.utils.Zombie" relationship="GENERALIZATION">
+      <point x="0.0" y="-161.5" />
+      <point x="477.0" y="348.0" />
+      <point x="270.5" y="348.0" />
+      <point x="0.0" y="161.5" />
+    </edge>
+    <edge source="edu.neumont.utils.Runner" target="edu.neumont.utils.Zombie" relationship="GENERALIZATION">
+      <point x="0.0" y="-139.5" />
+      <point x="0.0" y="161.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.9263873159682899" showDependencies="false" x="431.5" y="454.5" />
+  <SelectedNodes>
+    <node>edu.neumont.controllers.Controller</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
